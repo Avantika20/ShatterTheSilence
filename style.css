@@ -164,11 +164,16 @@ p{
   .card:hover {
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.2);
     background-color: #e6e3df;
+    margin-top: -10px;
+    transition: ease 1s;
+    
   }
   
   .container {
     padding: 2px 16px;
   }
+
+
   /* Remove extra left and right margins, due to padding in columns */
 .row {margin: 0 -5px;}
 
@@ -185,9 +190,9 @@ p{
     padding: 0 5px;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .column {
-      width: 100%;
+      width: 200px;
       display: block;
       margin-bottom: 20px;
     }
