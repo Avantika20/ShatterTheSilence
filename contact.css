@@ -135,9 +135,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
 
   .section{
-    margin: 120px;
-    margin-top: 50px;
-   margin-bottom: 100px;
+    margin: 50px;
     color: #5B5247;
     line-height: 1.5;
 }
